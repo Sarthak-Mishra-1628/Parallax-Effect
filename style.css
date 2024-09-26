@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+}
+.img1{
+    background-image: url("i1.png");
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url("i2.png");
+    min-height: 400px;
+}
+
+.img3{
+    background-image: url("i3.png");
+    min-height: 400px;
+}
+
+.img{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-p{
+    background: black;
+    color: white;
+    padding: 10px;
+    height: 60px;
+    display: inline;
+}
+
+.section{
+    text-align: center;
+    padding: 3rem;
+    background-color: rgba(169, 169, 169);
+}
+
+.section h2{
+    margin-bottom: 2rem;
+}
+.section p{
+    text-align: justify;
+}
+
